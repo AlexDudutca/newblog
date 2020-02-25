@@ -2,7 +2,7 @@ class GiftsController < ApplicationController
   def index
     # подарки
     gifts = Gift.all
-    render json: { gifts:gifts }, status: 200
+    render json: { gifts: gifts }, status: 200
     #[
     #    {id: 1, name: 'Refrigerator'},
     #    {id: 2, name: 'Tv'}
